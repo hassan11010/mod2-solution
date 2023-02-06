@@ -1,0 +1,87 @@
+h1{ margin:0%;
+	text-align: center;
+	color:rgb(93, 70, 226);
+}
+body{
+	
+	background-color: beige;
+}
+div{
+	box-sizing: border-box;
+color:black;
+float:left;
+height:139px ;
+padding:10px;
+margin:45.5px;
+position:relative;
+overflow:auto;
+}
+
+.orange{
+	background-color: rgb(207, 82, 207);
+}
+.apple{
+	background-color: rgb(51, 184, 102);
+}
+.pin{
+   background-color: rgb(202, 41, 49);
+}
+
+h3{
+	color: black;
+	background-color:olive;
+	width:35%;
+	height:17.5%;
+	border:1px black solid;
+	position:absolute; right:0%; top:0%;
+	text-align:center;
+}
+@media (min-width:992px){
+	.orange{
+		width:24%;
+	}
+	.apple{
+		width:24%;
+	}
+	.pin{
+		width:24%;
+	}
+	h3{  padding:0%;
+	      margin:0%;
+	}
+}
+@media (min-width:768px) and (max-width:991px){
+	.orange{
+		width:37.5%;
+	
+	}
+    .apple{
+		float:right;
+		width:37.5%;
+	}
+	.pin{
+		width:90%;
+	}
+	h3{
+		padding:0%;
+		margin:0%;
+	}
+}
+@media (max-width:767px){
+.orange{
+	width:90%;
+}
+.apple{
+	width:90%;
+}
+.pin{
+	width:90%;
+}
+h3{
+	padding:0%;
+		margin:0%;
+}
+}
+
+
+
