@@ -70,12 +70,15 @@ h3{
 @media (max-width:767px){
 .orange{
 	width:90%;
+	margin:5%;
 }
 .apple{
 	width:90%;
+	margin:5%;
 }
 .pin{
 	width:90%;
+	margin:5%;
 }
 h3{
 	padding:0%;
