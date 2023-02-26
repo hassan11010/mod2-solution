@@ -1,0 +1,35 @@
+body{
+	background-color:#fffee0;
+}
+.chicken{
+	background-color:pink;
+	padding:10px;
+}
+.Beef{
+background-color:#fff0ff;
+padding:10px;
+}
+.Beef h2{
+	color:black;
+}
+.Sushi{
+	background-color:brown;
+	padding: 10px;
+}
+.navbar-inverse .navbar-toggle{
+	border-color:white;
+
+}
+hr{
+	margin-top:0;
+	margin-bottom:0;
+	border-color:2px solid white;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	border-color:white;
+	margin-bottom:-7.5px;
+}
+.nav>li>a{
+	font-size:20px;
+
+}
